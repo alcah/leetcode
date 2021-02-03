@@ -1,2 +1,2 @@
-# Collection of Leetcode Solutions in C++
-Each passes the relevant problem
+* Collection of Leetcode Solutions in C++
+Each passes the relevant problem.
