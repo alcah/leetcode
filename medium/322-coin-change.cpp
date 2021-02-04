@@ -11,29 +11,6 @@
 // END: 16;15;00
 
 
-	// // really just the same as above, but we guarantee the input is sorted
-	// // This greedy approach doesn't work; consider (7, {1,3,4,5})
-	// int coinChanger(vector<int>& coins, int amount) {
-	//	// this is a classic dynamic programming problem
-	//	// I don't actually know the DP solution, only the recursive one
-	//	if (amount < 0 || coins.size() < 1) { return -1; }
-	//	if (amount == 0) { return 0; }
-	//	runcount += 1;
-	//	cout << "run " << runcount << ": " << amount << endl;
-	//	int ncoins = 0;
-	//	vector<int> subcoins;
-	//	// use largest denomination to reduce amount.
-	//	if ((ncoins = coinChanger(coins, amount-coins[coins.size()-1])) >= 0) {
-	//		return ncoins + 1;
-	//	}
-
-	//	// new vector with all coins except the largest denomination
-	//	copy(coins.begin(), coins.end()-1, back_inserter(subcoins));
-	//	return ncoins = coinChanger(subcoins, amount);
-	// }
-
-
-
 #include <bits/stdc++.h>
 
 using namespace std;

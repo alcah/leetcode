@@ -71,3 +71,9 @@ public:
 		return ((g.nedges + 2) - g.nvertices) - 1;
 	}
 };
+
+int main(int argc, char *argv[])
+{
+	Solution s;
+	return 0;
+}
